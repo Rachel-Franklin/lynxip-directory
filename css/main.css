@@ -1,0 +1,173 @@
+/***** BASE STYLES *****/
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #2b2b2b;
+}
+
+/***** GRID *****/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+
+/***** HEADER *****/
+
+#hero{
+  background-attachment: fixed;
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 100%;
+}
+
+header{
+    height: 100vh;
+    background: url("../img/lynx-cyber.jpg");
+    background-color: #1D1314;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: relative;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%)
+}
+
+#hero-mask{
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0);
+  opacity: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.full-height {
+  height: 100vh;
+}
+
+header h1{ 
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #ECB088;
+    padding: 65px 0 65px 25px;
+}
+
+nav{
+    float: right; 
+    padding: 95px 5px;
+    width: 400px;
+}
+
+nav ul li{
+    display: inline-block;
+    align-content: right;
+}
+
+nav ul li a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-left: 60px; 
+}
+
+header h2{
+    width: 1000px;
+    clear: both;
+    font-family: 'Oswald', sans-serif;
+    font-size: 75px;
+    line-height: 200px;
+    color: #9b9b9b;
+    padding: 0 0 20px 250px;
+    text-align: right;
+}
+
+header h2 span{
+    color: #ECB088;
+}
+
+
+
+/***** ABOUT *****/
+
+#about{
+    height: 400px;
+}
+
+#about .full-width{
+    padding: 80px 0;
+}
+
+#about h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: #2b2b2b;
+    padding-left: 50px;
+    text-align: center;
+}
+
+#about p{
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/***** RESOURCES *****/
+
+#resources{
+    background-color: #DAD2D9;
+    text-align: center;
+    padding-top: 75px;
+    margin-top: 75px;
+    height: 350px;
+}
+
+#resources h3{
+    font-size: 30px;
+    color: #000000;
+    line-height: 30px;
+}
+
+#resources p{
+    font-size: 18px;
+    color: #000000;
+    line-height: 30px;
+    padding: 35px 50px;
+}
+
+/***** FOOTER *****/
+
+footer{
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+}
